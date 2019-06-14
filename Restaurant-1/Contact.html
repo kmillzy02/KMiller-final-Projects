@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+    Katelyn Miller
+    created 
+    most recent revision:
+-->
+<html lang="en">
+    <head> 
+        <title> Contact Us </title>
+    </head>
+
+<body>
+    <header>
+        <h1> McDanno's</h1>
+        <hr />
+    </header>
+
+        <nav>
+            <p><a href="Home.html">Home  </a>
+            <a href="Menu.html">Menu</a>
+            <a href="Contact.html">Contact Us</a></p>
+            <hr />
+        </nav>
+    <form action="submit.html" method="post">
+        <label for="name" >Name: </label>
+        <input type="text" name="name" > <br />
+
+        <label for="email"> Email:</label>
+        <input type="text" name="email" > <br />
+        
+        <label for="phone"> Phone:</label>
+        <input type="text" name="phone" > <br />
+
+        <br /><label for="reason"> Reason for Inquiry: </label>
+        <select id="reason" name="reason">
+            <option value="default" selected > catering </option>
+            <option value="private" > Private Party </option>
+            <option value ="feedback"> Feedback </option>
+            <option value="Other"> Other</option> <br />
+        </select>
+
+        <br /><label for="info"> Additional Information: </label>
+        <textarea id="info" name ="info" ></textarea><br />
+
+        <br /><feildset>
+            <legend>I have filled in the client questionnaire form: </legend>
+            <input type="radio" id="choice1" name="questionaire" value="yes">
+            <label for="choice1">Yes</label>
+            <input type="radio" id="choice2"name="questionaire" value="no">
+            <label for="choice2">No</label><br />
+        </feildset> 
+        
+        
+            <br /><legend>Best days to contact you:</legend>
+            <input type="checkbox" name="mon" value="interest" value="mon">
+            <label for="mon">M</label> 
+            <input type="checkbox" name="tues" value="interest" value="tues">
+            <label for="tues">T</label>
+            <input type="checkbox" name="wed" value="interest" value="wed">
+            <label for="wed">W</label>
+            <input type="checkbox" name="thur" value="interest" value="thur">
+            <label for="thur">Th</label>
+            <input type="checkbox" name="fri" value="interest" value="fri">
+            <label for="fri">F</label>
+        
+           <br /> <br /><input type="Submit" /> 
+              
+    </form>
+
+<footer>
+    <p><hr />
+        1415 4th st. Honalulu, HI 96795 <br />
+        (555) 234 - 3455
+           </p>
+</footer>
+
+</body>
+</html>
