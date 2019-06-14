@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--
+    Katelyn Miller
+    created 
+    most recent revision:
+-->
+<html lang="en">
+    <head> 
+        <title> Contact Us </title>
+        <link href="Styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+        <style>
+            
+            form {
+                background-color: #ffeee6;
+                color: #4d1a00;
+            }
+        
+            div, label[for="reason"], label[for="info"] {
+                font-weight: bold;
+            }
+
+            input[type=text] {
+                border: 2px solid #4d1a00;
+                width: 30%;
+                padding: 8px 8px;
+                margin: 12px 0;
+                box-sizing: border-box;
+            }
+            select, textarea {
+                margin: 10px 1;
+            }
+           
+            input[type=submit] {
+                background-color: #4d1a00;
+                color: #ffeee6; 
+                padding: 10px 20px;
+            }
+
+            input[type=submit]:hover {
+                background-color: #ffccb3;
+            }
+
+            input[type=submit]:active {
+                font-weight: bold;
+            }
+        </style>
+    
+    </head>
+
+<body>
+    <header>
+        <h1> McDanno's</h1>
+        <hr />
+    </header>
+
+        <nav>
+            <p><a href="Home.html">Home  </a>
+            <a href="Menu.html">Menu</a>
+            <a href="Contact.html">Contact Us</a></p>
+        </nav>
+
+    <form action="submit.html" method="post">
+      <div id="name email phone">  
+        <label for="name" >Name: </label>
+        <input type="text" name="name" > <br />
+
+        <label for="email"> Email:</label>
+        <input type="text" name="email" > <br />
+        
+        <label for="phone"> Phone:</label>
+        <input type="text" name="phone" > <br />
+    </div> 
+    <div id="reason">  
+        <br /><label for="reason"> Reason for Inquiry: </label>
+        <select id="reason" name="reason">
+            <option value="default" selected > catering </option>
+            <option value="private" > Private Party </option>
+            <option value ="feedback"> Feedback </option>
+            <option value="Other"> Other</option> <br />
+        </select>
+    </div>
+    <div id=info>
+        <br /><label for="info"> Additional Information: </label>
+        <textarea id="info" name ="info" ></textarea><br />
+    </div>
+        <br /><feildset id=questionaire>
+            <legend><b>I have filled in the client questionnaire form: </b></legend>
+            <input type="radio" id="choice1" name="questionaire" value="yes">
+            <label for="choice1">Yes</label>
+            <input type="radio" id="choice2"name="questionaire" value="no">
+            <label for="choice2">No</label><br />
+        </feildset> 
+        
+        <feildset id=day>
+            <br /><legend><b>Best days to contact you:</b></legend>
+            <input type="checkbox" name="mon" value="interest" value="mon">
+            <label for="mon">M</label> 
+            <input type="checkbox" name="tues" value="interest" value="tues">
+            <label for="tues">T</label>
+            <input type="checkbox" name="wed" value="interest" value="wed">
+            <label for="wed">W</label>
+            <input type="checkbox" name="thur" value="interest" value="thur">
+            <label for="thur">Th</label>
+            <input type="checkbox" name="fri" value="interest" value="fri">
+            <label for="fri">F</label>
+        </feildset>
+
+           <br /> <br /><input type="Submit" /> 
+              
+    </form>
+
+<footer>
+    <p>
+        1415 4th st. Honalulu, HI 96795 <br />
+        (555) 234 - 3455
+           </p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+/* Katelyn Miller
+Created: 6/13/19
+updated:
+*/
+
+header, footer {
+    font-family: impact;
+    color: #4d0000;
+    background-color: #ffeee6;
+    height: 100px;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+}
+
+h1 { 
+    font-size: 4em;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+div {
+    background-color: #fff7e6;
+}
+
+nav {
+    border-top: 3px dashed #4d1a00;
+    border-bottom: 3px dashed #4d1a00;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav a{
+    background-color: #4d1a00;
+    color: #ffeee6;
+    border: thick solid #331100;
+    display: block;
+    width: 20%;
+    margin: 10px;
+} 
+    /* visted = new color
+    active = not underlined
+    */
+nav a:hover {
+    font-weight: bold;
+}
+
+nav a:active {
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #ffe6b3;
+}
