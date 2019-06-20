@@ -5,25 +5,33 @@ updated:
 
 header, footer {
     font-family: impact;
-    color: #484C7F;
-    background-color: #F1d4d4;
-    height: 100px;
+    color: #484c7f;
+    background-color:#95adbe;
     text-align: center;
     padding: 20px 10px 20px 10px;
 }
 
-h1 { 
-    font-size: 4em;
+header {
+    font-size: 5em;
+    margin-bottom: 30px;
 }
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-div {
-    background-color: #ac8daf;
+
+div[id="description"]{
+    font-size: 14pt;
+    text-align: center;
+}
+div[id="rest"] {
+    background-color: #f1d4d4;
 }
 
+div[class="jumbotron"]{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
 nav {
     border-top: 3px dashed #484c7f;
     border-bottom: 3px dashed #484c7f;
@@ -33,8 +41,8 @@ nav {
     margin-right: auto;
 }
 nav a{
-    background-color: #ac8daf;
-    color: #f1d4d4;
+    background-color: #484c7f;
+    color: #ffeee6;
     border: thick solid #484c7f;
     display: block;
     width: 20%;
@@ -53,4 +61,10 @@ nav a:active {
 
 nav a:visited {
     color: #f1d4d4;
+}
+
+.carousel img {
+
+    margin: auto;
+
 }

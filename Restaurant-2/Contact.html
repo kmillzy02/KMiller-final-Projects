@@ -11,8 +11,8 @@
         <style>
             
             form {
-                background-color: #ffeee6;
-                color: #4d1a00;
+                background-color: #ac8daf;
+                color: #484c7f;
             }
         
             div, label[for="reason"], label[for="info"] {
@@ -20,7 +20,7 @@
             }
 
             input[type=text] {
-                border: 2px solid #4d1a00;
+                border: 2px solid #484c7f;
                 width: 30%;
                 padding: 8px 8px;
                 margin: 12px 0;
@@ -31,13 +31,13 @@
             }
            
             input[type=submit] {
-                background-color: #4d1a00;
-                color: #ffeee6; 
+                background-color: #484c7f;
+                color: #f1d4d4; 
                 padding: 10px 20px;
             }
 
             input[type=submit]:hover {
-                background-color: #ffccb3;
+                background-color: #ddb6c6;
             }
 
             input[type=submit]:active {
@@ -60,29 +60,32 @@
         </nav>
 
     <form action="submit.html" method="post">
-      <div id="name email phone">  
-        <label for="name" >Name: </label>
-        <input type="text" name="name" > <br />
+          
+            <label for="name" >Name: </label>
+            <input type="text" name="name" > <br />
 
-        <label for="email"> Email:</label>
-        <input type="text" name="email" > <br />
+            <label for="email"> Email:</label>
+            <input type="text" name="email" > <br />
         
-        <label for="phone"> Phone:</label>
-        <input type="text" name="phone" > <br />
-    </div> 
-    <div id="reason">  
-        <br /><label for="reason"> Reason for Inquiry: </label>
-        <select id="reason" name="reason">
-            <option value="default" selected > catering </option>
-            <option value="private" > Private Party </option>
-            <option value ="feedback"> Feedback </option>
-            <option value="Other"> Other</option> <br />
-        </select>
-    </div>
-    <div id=info>
-        <br /><label for="info"> Additional Information: </label>
-        <textarea id="info" name ="info" ></textarea><br />
-    </div>
+            <label for="phone"> Phone:</label>
+            <input type="text" name="phone" > <br />
+        
+
+          
+            <br /><label for="reason"> Reason for Inquiry: </label>
+                <select id="reason" name="reason">
+                    <option value="default" selected > catering </option>
+                    <option value="private" > Private Party </option>
+                    <option value ="feedback"> Feedback </option>
+                    <option value="Other"> Other</option> <br />
+                </select>
+        
+    
+        
+            <br /><label for="info"> Additional Information: </label>
+            <textarea id="info" name ="info" ></textarea><br />
+        
+        
         <br /><feildset id=questionaire>
             <legend><b>I have filled in the client questionnaire form: </b></legend>
             <input type="radio" id="choice1" name="questionaire" value="yes">
